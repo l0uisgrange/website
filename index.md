@@ -1,5 +1,5 @@
 ---
-layout: full
+layout: home
 ---
 
-Homepage content test
+Click to see the [story](/website/story).
