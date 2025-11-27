@@ -2,8 +2,3 @@ theme: jekyll-theme-cayman
 title: Reddit
 description: The social fabric they weave
 show_downloads: True
-navigation:
-  - title: Home
-    url: /
-  - title: Example
-    url: example

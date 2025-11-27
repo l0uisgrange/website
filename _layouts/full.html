@@ -9,10 +9,13 @@ layout: full
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" type="image/png" href="assets/img/favicon.png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <meta property="og:title" content="{{ page.title | default: site.title }}" />
+    <meta property="og:type" content="website">
     <meta property="og:image" content="{{ '/assets/img/og.webp' | relative_url }}" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:image:alt" content="The social fabric they weave" />
+    <meta name="twitter:card" content="summary_large_image">
     <title>{{ site.title | default: site.github.repository_name }} by {{ site.github.owner_name }}</title>
     <link type="text/tailwindcss" rel="stylesheet" href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}">
 </head>
